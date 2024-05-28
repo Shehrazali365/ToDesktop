@@ -1,0 +1,21 @@
+# Ignore all .log files
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore all files in a specific directory
+build/
+
+# Ignore all files ending in .tmp
+*.tmp
+
+# Ignore a specific file
+secrets.txt
+
+# Ignore files with a specific name in any directory
+*.swp
+
+# Ignore everything in a directory except a specific file
+/logs/*
+!/logs/important.log
